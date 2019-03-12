@@ -48,3 +48,8 @@ brew cask install eclipse-ide
 brew cask install intellij-idea
 brew cask install android-studio
 ```
+
+## Editors
+```
+brew cask install sublime
+```
