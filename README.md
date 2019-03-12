@@ -1,15 +1,39 @@
 Please enter here commands needed for Mac os setup to start Automation
-brew cask install java - install Java
-brew install node - install node
-npm install -g appium - install Appium
-brew install maven - install Maven
 
-brew cask install skype - install Skype
-brew cask install slack - install Slack
-brew cask install appium -  install Desktop appium
-brew cask install safari-technology-preview - install Safari Technology Preview
-brew cask install google-chrome - install Chrome
-brew cask install firefox - install Firefox
+# 
+## Brew
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+## Browsers
+```
+brew cask install google-chrome
+brew cask install firefox
+brew cask install safari-technology-preview
+```
 
-brew install carthage - install Carthage
-npm install -g ios-deploy - install WebDriver Agent driver
+## Appium
+```
+brew install node
+npm install -g appium
+brew install libimobiledevice --HEAD 
+brew install carthage
+npm install -g ios-deploy
+sudo gem install xcpretty
+```
+
+## JAVA
+```
+brew cask install java
+```
+
+## Maven
+```
+brew install maven
+```
+
+## Skype,Slack,Viber,WhatApp
+```
+brew cask install skype
+brew cask install slack
+```
