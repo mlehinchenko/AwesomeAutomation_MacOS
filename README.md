@@ -10,6 +10,7 @@ Please enter here commands needed for Mac os setup to start Automation
 brew cask install google-chrome
 brew cask install firefox
 brew cask install safari-technology-preview
+brew cask install opera
 ```
 
 ## Appium
@@ -36,4 +37,14 @@ brew install maven
 ```
 brew cask install skype
 brew cask install slack
+brew cask install viber
+brew cask install whatsapp
+```
+
+
+## IDE
+```
+brew cask install eclipse-ide
+brew cask install intellij-idea
+brew cask install android-studio
 ```
